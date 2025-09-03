@@ -37,18 +37,6 @@ Click **Clear Logs** in the popup; this only affects your local browser storage.
 - All data is stored **locally in your browser** via `chrome.storage.local`.
 - No remote calls, analytics, or external storage are used.
 
-## Publish to GitHub
-1. Create a new repo (or an existing one).
-2. From the folder containing `user-action-logger/`, run:
-   ```bash
-   git init
-   git add user-action-logger
-   git commit -m "Add User Action Logger (MV3)"
-   git branch -M main
-   git remote add origin <YOUR_GITHUB_REMOTE_URL>
-   git push -u origin main
-   ```
-
 ## Optional enhancements
 - Add filters in the popup (type, domain, date range).
 - Add CSV export.
